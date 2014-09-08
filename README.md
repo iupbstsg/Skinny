@@ -21,7 +21,7 @@ an epoch number if in Epoch mode. Do something awesome.
 
 ## Care and Feeding
 
-The Skinny has a battery indicator in the upper-left corner of the display. It is green when fully charged. When it drops to 50% it turns yellow, and below 30% it turns red. When red, recording to the SD card might not work and you might have a bad time.
+The Skinny has a battery indicator in the upper-left corner of the display. It is green when fully charged. When it drops to 50% it turns yellow, and below 30% it turns red. When red, recording to the SD card might not work and you *might* have a bad time.
 
 ## Plugging Things
 
@@ -29,9 +29,14 @@ One side of the Skinny has the micro USB and micro SD card ports:
 
 ![](https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/ports.png)
 
-The micro SD card only goes in one way. The gold pads should face up. A tiny spring/latch mechanism holds the card in place. To insert the card, press it in until you hear/feel a slight click. To remove, press again (another slight click) to release the latch, then the card should be free to remove. Don't try to force the card in or out or you will probably have a bad time.
+The micro SD card only goes in one way. The gold pads should face up. A tiny spring/latch mechanism holds the card in place.
 
-The micro USB charging cable only goes in one way. If you're like me, you will get the orientation wrong at least twice before finally plugging it in correctly. If you get it right every time, try not to brag. Lastly, the micro USB connector is small (like the name implies) and delicate. Charging should therefore take place away from small children or kittens.
+> To insert the card, press it in until you hear/feel a slight click.
+> To remove, press again (another slight click) to release the latch, then the card should be free to remove.
+
+Don't try to force the card in or out or you will *probably* have a bad time.
+
+The micro USB charging cable only goes in one way. If you're like me, you will get the orientation wrong at least twice before finally plugging it in correctly. If you get it right every time, try not to brag. Lastly, the micro USB connector is small (like the name implies) and delicate. Charging should therefore take place away from small children or [kittens](https://encrypted.google.com/search?tbm=isch&q=kittens&tbs=imgo:1).
 
 ## Conserve Battery
 
@@ -41,7 +46,7 @@ To conserve battery life, put the Skinny into "sleep mode". This will turn off t
 
 The main thing to note is that the SD card is only recognized **at wakeup time**. So if you remove the SD card (for example, to copy data to your computer) then the Skinny will forget what it was doing and be unable to find the SD card, *even after you put it back in*, until you first put it to sleep and wake it up again.
 
-If you have other issues don't hesitate to contact [Alex Shroyer](mailto:ashroyer@gmail.com) or visit the Psychological and Brain Sciences Technical Support Group (PBS-TSG), located in PSY 008.
+If you have other issues don't hesitate to contact [Alex Shroyer](mailto:ashroyer@gmail.com) or visit the Psychological and Brain Sciences Technical Support Group (PBS-TSG), located in [PSY 008](https://www.google.com/maps/place/Department+of+Psychological+and+Brain+Sciences/@39.1720876,-86.5202016,19z/data=!4m5!1m2!2m1!1spsychology+iu!3m1!1s0x886c66c7635927bd:0x78888eb4a1b46d01?hl=en).
 
 ---
 
@@ -58,10 +63,10 @@ If you have other issues don't hesitate to contact [Alex Shroyer](mailto:ashroye
 
 ## Features
 
-* AgCl electrodes (2)
+* [AgCl](https://en.wikipedia.org/wiki/Silver_chloride) electrodes (2 of them)
 * 1.8" color TFT screen
-* micro SD card for data collection
-* rechargeable battery (charge through micro USB)
+* micro SD card for charging
+* rechargeable battery
 
 ## Revision History
 
