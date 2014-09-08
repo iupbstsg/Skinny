@@ -31,33 +31,57 @@
 
 <p><img src="https://github.iu.edu/PBS-TSG/Motz-TheSkinny/raw/master/Resources/skinnyLogo.png"></p>
 
-<p>Galvanic skin response device for classroom and field use.</p>
-
 <h1>
-<a name="how-to-use-this-thing" class="anchor" href="#how-to-use-this-thing"><span class="octicon octicon-link"></span></a>How to Use this Thing</h1>
+<a name="quick-start" class="anchor" href="#quick-start"><span class="octicon octicon-link"></span></a>Quick Start</h1>
 
-<h2>
-<a name="quick-instructions" class="anchor" href="#quick-instructions"><span class="octicon octicon-link"></span></a>Quick Instructions</h2>
-
-<p>Here is how to run an experiment with the Skinny. Assumes the Skinny is charged and the SD card is inserted.</p>
+<p>Here is how to run an experiment with the Skinny. Assumes the Skinny's battery is <a href="https://github.iu.edu/PBS-TSG/Skinny#care-and-feeding">charged</a> and the SD card is <a href="https://github.iu.edu/PBS-TSG/Skinny#plugging-things">inserted</a>.</p>
 
 <ol>
-<li>attach probes to person (use Signa Creme)
-<img src="https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/using1.png" alt="">
-</li>
 <li>attach probes to Skinny (either direction works)
 <img src="https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/jacks.png" alt="">
 </li>
-<li>scroll to <code>Record Continuous</code> or <code>Record Epoch</code> then press the button to choose this option</li>
+<li>attach probes to person (use Signa Creme)
+<img src="https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/using1.png" alt="">
+</li>
+<li>scroll (by turning the knob) to <code>Record Continuous</code> or <code>Record Epoch</code>, then press the button to choose</li>
 <li>During recording, the display should indicate a file number such as <code>1C.CSV</code> if you're in Continuous mode, or
-an epoch number if in Epoch mode.
+an epoch number if in Epoch mode. Do something awesome.
 <img src="https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/using2.png" alt="">
 </li>
 <li>when done, a long press (2 seconds) on the button will exit the recording mode and return you to the menu</li>
-</ol><h2>
-<a name="detailed-instructions" class="anchor" href="#detailed-instructions"><span class="octicon octicon-link"></span></a>Detailed Instructions</h2>
+</ol><hr><h1>
+<a name="user-manual" class="anchor" href="#user-manual"><span class="octicon octicon-link"></span></a>User Manual</h1>
 
-<p><a href="">User Manual</a></p>
+<h2>
+<a name="care-and-feeding" class="anchor" href="#care-and-feeding"><span class="octicon octicon-link"></span></a>Care and Feeding</h2>
+
+<p>The Skinny has a battery indicator in the upper-left corner of the display. It is green when fully charged. When it drops to 50% it turns yellow, and below 30% it turns red. When red, recording to the SD card might not work and you might have a bad time.</p>
+
+<h2>
+<a name="plugging-things" class="anchor" href="#plugging-things"><span class="octicon octicon-link"></span></a>Plugging Things</h2>
+
+<p>One side of the Skinny has the micro USB and micro SD card ports:</p>
+
+<p><img src="https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/ports.png" alt=""></p>
+
+<p>The micro SD card only goes in one way. The gold pads should face up. A tiny spring/latch mechanism holds the card in place. To insert the card, press it in until you hear/feel a slight click. To remove, press again (another slight click) to release the latch, then the card should be free to remove. Don't try to force the card in or out or you will probably have a bad time.</p>
+
+<p>The micro USB charging cable only goes in one way. If you're like me, you will get the orientation wrong at least twice before finally plugging it in correctly. If you get it right every time, try not to brag. Lastly, the micro USB connector is small (like the name implies) and delicate. Charging should therefore take place away from small children or kittens.</p>
+
+<h2>
+<a name="conserve-battery" class="anchor" href="#conserve-battery"><span class="octicon octicon-link"></span></a>Conserve Battery</h2>
+
+<p>To conserve battery life, put the Skinny into "sleep mode". This will turn off the display and tell the <a href="https://en.wikipedia.org/wiki/Microcontroller">microcontrollers</a> inside to stop using so much power. To wake up the Skinny again, press the button. It takes about 2 seconds for it to resume normal operation after waking.</p>
+
+<h2>
+<a name="troubleshooting" class="anchor" href="#troubleshooting"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
+
+<p>The main thing to note is that the SD card is only recognized <strong>at wakeup time</strong>. So if you remove the SD card (for example, to copy data to your computer) then the Skinny will forget what it was doing and be unable to find the SD card, <em>even after you put it back in</em>, until you first put it to sleep and wake it up again.</p>
+
+<p>If you have other issues don't hesitate to contact <a href="mailto:ashroyer@gmail.com">Alex Shroyer</a> or visit the Psychological and Brain Sciences Technical Support Group (PBS-TSG), located in PSY 008.</p>
+
+<hr><h1>
+<a name="more-information" class="anchor" href="#more-information"><span class="octicon octicon-link"></span></a>More Information</h1>
 
 <h2>
 <a name="laboratory--principal-investigator--faculty" class="anchor" href="#laboratory--principal-investigator--faculty"><span class="octicon octicon-link"></span></a>Laboratory / Principal Investigator / Faculty</h2>
@@ -65,15 +89,14 @@ an epoch number if in Epoch mode.
 <p><a href="http://psych.indiana.edu/faculty/bmotz.php">Ben Motz</a></p>
 
 <h2>
-<a name="engineers" class="anchor" href="#engineers"><span class="octicon octicon-link"></span></a><a href="http://psych.indiana.edu/staffdirectory.php#8">Engineers</a>
-</h2>
+<a name="engineers" class="anchor" href="#engineers"><span class="octicon octicon-link"></span></a>Engineers</h2>
 
 <ul>
-<li><a href="https://github.com/hoosieree">Alex Shroyer</a></li>
+<li><a href="https://hoosieree.github.io">Alex Shroyer</a></li>
 <li>Jeff Sturgeon</li>
 <li>Tony Walker</li>
-</ul><h4>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h4>
+</ul><h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
 
 <ul>
 <li>AgCl electrodes (2)</li>
