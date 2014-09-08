@@ -3,7 +3,7 @@
 
 # Quick Start
 
-Here is how to run an experiment with the Skinny. Assumes the Skinny is charged and the SD card is [inserted].
+Here is how to run an experiment with the Skinny. Assumes the Skinny's battery is [charged](https://github.iu.edu/PBS-TSG/Skinny#care-and-feeding) and the SD card is [inserted](https://github.iu.edu/PBS-TSG/Skinny#plugging-things).
 
 1. attach probes to Skinny (either direction works)
   ![](https://github.iu.edu/PBS-TSG/Skinny/raw/gh-pages/images/jacks.png)
